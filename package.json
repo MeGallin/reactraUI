@@ -32,6 +32,7 @@
     "@storybook/addon-actions": "^8.6.7",
     "@storybook/addon-essentials": "^8.6.7",
     "@storybook/addon-interactions": "^8.6.7",
+    "@storybook/addon-knobs": "^8.0.1",
     "@storybook/addon-links": "^8.6.7",
     "@storybook/react": "^8.6.7",
     "@storybook/react-webpack5": "^8.6.7",
