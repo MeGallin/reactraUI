@@ -22,6 +22,7 @@ export interface ButtonProps {
   endIcon?: React.ReactNode;
   loading?: boolean;
   onClick?: () => void;
+  type?: 'button' | 'submit' | 'reset';
 }
 
 const StyledButton = styled.button<{
@@ -249,6 +250,7 @@ const Button = ({
   endIcon,
   loading = false,
   onClick,
+  type = 'button',
   ...props
 }: ButtonProps) => {
   const hasStartIcon = Boolean(startIcon);
@@ -265,6 +267,7 @@ const Button = ({
       $hasEndIcon={hasEndIcon}
       $loading={loading}
       onClick={onClick}
+      type={type}
       {...props}
     >
       <span className="button-content">
