@@ -81,7 +81,7 @@ export const spacing = (theme: Theme, value: number): string => {
  * @returns A function that accepts a theme and returns the appropriate value
  */
 export const responsive = <T>(values: Partial<Record<Breakpoint, T>>) => {
-  return (theme: Theme): T => {
+  return (): T => {
     // Find the appropriate value based on the current viewport
     // This is a client-side utility, so it will return the largest matching breakpoint
     // For server-side rendering, it will use the smallest defined breakpoint

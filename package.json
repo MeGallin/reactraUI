@@ -1,6 +1,7 @@
 {
   "name": "reactra-ui",
   "version": "0.1.0",
+  "type": "module",
   "description": "A modern and blazingly fast UI library for React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

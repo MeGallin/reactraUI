@@ -5,9 +5,10 @@
     "lib": ["dom", "esnext"],
     "importHelpers": true,
     "declaration": true,
+    "declarationDir": "./dist/types", // <-- Add this line
     "sourceMap": true,
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./dist/esm", // <-- Make sure this outputs the JS files here
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,

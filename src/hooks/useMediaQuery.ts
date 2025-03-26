@@ -101,5 +101,6 @@ export const useBreakpoint = (theme: Theme): Breakpoint => {
   if (isLg) return 'lg';
   if (isMd) return 'md';
   if (isSm) return 'sm';
+  if (isXs) return 'xs';
   return 'xs';
 };
