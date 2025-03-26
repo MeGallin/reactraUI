@@ -12,7 +12,8 @@ export * from './Switch';
 export * from './Select';
 export * from './Form';
 
-// Navigation components - to be implemented
+// Navigation components
+export * from './Footer';
 // export * from './Navigation';
 
 // Overlay components - to be implemented
