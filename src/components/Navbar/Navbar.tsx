@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
-import Button from '../Button/Button';
 import Switch from '../Switch/Switch';
 
 interface DrawerProps {
@@ -170,7 +169,7 @@ export const Navbar = () => {
           <Switch
             label="Dark Mode"
             size="small"
-            onToggle={(checked) => {
+            onToggle={() => {
               // Add theme toggle logic here
             }}
           />
@@ -206,7 +205,7 @@ export const Navbar = () => {
             <Switch
               label="Dark Mode"
               size="small"
-              onToggle={(checked) => {
+              onToggle={() => {
                 // Add theme toggle logic here
               }}
             />

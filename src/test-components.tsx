@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { ThemeProvider } from './theme';
 import Checkbox from './components/Checkbox';
