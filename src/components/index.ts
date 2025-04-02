@@ -22,5 +22,5 @@ export * from './Footer';
 // Card components
 export * from './Card';
 
-// Feedback components - to be implemented
-// export * from './Feedback';
+// Feedback components
+export * from './Alert';
