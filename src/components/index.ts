@@ -11,6 +11,7 @@ export * from './Radio';
 export * from './Switch';
 export * from './Select';
 export * from './DatePicker';
+export * from './Slider';
 export * from './Form';
 
 // Navigation components
