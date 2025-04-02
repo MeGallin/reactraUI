@@ -16,8 +16,8 @@ export * from './Form';
 export * from './Footer';
 // export * from './Navigation';
 
-// Overlay components - to be implemented
-// export * from './Overlay';
+// Overlay components
+export * from './Modal';
 
 // Card components
 export * from './Card';
