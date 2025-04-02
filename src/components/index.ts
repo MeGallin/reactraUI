@@ -18,6 +18,7 @@ export * from './Footer';
 
 // Overlay components
 export * from './Modal';
+export * from './Tooltip';
 
 // Card components
 export * from './Card';
