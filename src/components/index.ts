@@ -26,6 +26,7 @@ export * from './Card';
 export * from './Alert';
 export * from './Toast';
 export * from './Badge';
+export * from './Avatar';
 
 // Loading components
 export * from './Loading';
