@@ -20,6 +20,7 @@ export * from './Footer';
 export * from './Modal';
 export * from './Tooltip';
 export * from './Popover';
+export * from './Drawer';
 
 // Card components
 export * from './Card';
