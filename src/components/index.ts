@@ -25,6 +25,7 @@ export * from './Card';
 // Feedback components
 export * from './Alert';
 export * from './Toast';
+export * from './Badge';
 
 // Loading components
 export * from './Loading';
