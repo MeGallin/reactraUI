@@ -19,6 +19,7 @@ export * from './Footer';
 // Overlay components
 export * from './Modal';
 export * from './Tooltip';
+export * from './Popover';
 
 // Card components
 export * from './Card';
