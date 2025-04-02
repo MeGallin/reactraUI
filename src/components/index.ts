@@ -24,3 +24,4 @@ export * from './Card';
 
 // Feedback components
 export * from './Alert';
+export * from './Toast';
